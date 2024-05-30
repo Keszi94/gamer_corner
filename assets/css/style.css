@@ -105,7 +105,8 @@ main {
 
 /* Footer */
 footer {
-    background-color: lightpink;
+    background: rgb(131, 58, 180);
+    background: linear-gradient(266deg, rgba(131, 58, 180, 1) 0%, rgba(148, 25, 214, 1) 17%, rgba(213, 101, 162, 1) 74%, rgba(252, 176, 69, 1) 100%);
 }
 
 /* Media query: tablets and larger (768px and larger) */
@@ -129,7 +130,6 @@ footer {
         padding-left: 1rem;
         font-size: 130%;
         margin: 0 0.5rem;
-    
     }
 
     .nav-toggle-label {
