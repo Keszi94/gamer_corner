@@ -32,6 +32,10 @@ header {
 
 }
 
+#logo {
+    line-height: 50px;
+}
+
 header a {
     text-decoration: none;
     color: inherit;
@@ -95,7 +99,7 @@ main {
     background-color: #2E2E2E;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 40px;
+    margin-top: 50px;
     color: whitesmoke;
 }
 
@@ -121,11 +125,23 @@ footer {
         display: flex;
     }
 
-    #menu > li {
+    #menu>li {
         padding-left: 1rem;
+    
     }
 
     .nav-toggle-label {
         display: none;
+    }
+
+    #logo {
+        font-size: 260%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+
+    /* Main content */
+    main {
+        margin-top: 75px;
     }
 }
