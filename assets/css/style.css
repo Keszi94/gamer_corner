@@ -18,8 +18,8 @@ body {
 
 /* Header */
 header {
-    background: rgb(131,58,180);
-    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(148,25,214,1) 17%, rgba(213,101,162,1) 74%, rgba(252,176,69,1) 100%);
+    background: rgb(131, 58, 180);
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(148, 25, 214, 1) 17%, rgba(213, 101, 162, 1) 74%, rgba(252, 176, 69, 1) 100%);
     color: black;
     padding: 0 1rem;
     position: fixed;
@@ -29,7 +29,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    
+
 }
 
 header a {
@@ -52,9 +52,11 @@ h1 {
     list-style-type: none;
     font-size: 120%;
     letter-spacing: 2px;
+    float: right;
+    text-align: right;
 }
 
-#menu > li {
+#menu>li {
     margin-bottom: 0.5em;
 }
 
@@ -65,7 +67,8 @@ h1 {
 /* Navbar styles - dropdown menu */
 nav {
     position: absolute;
-    background-color: white;
+    background: rgb(131, 58, 180);
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(148, 25, 214, 1) 17%, rgba(213, 101, 162, 1) 74%, rgba(252, 176, 69, 1) 100%);
     width: 100%;
     left: 0;
     padding: 0 1rem;
@@ -76,7 +79,7 @@ nav {
 
 /* Nav toggle */
 #nav-toggle:checked~nav {
-display: block;
+    display: block;
 }
 
 #nav-toggle {
@@ -84,7 +87,7 @@ display: block;
 }
 
 .nav-toggle-label {
-font-size: 2rem;
+    font-size: 2rem;
 }
 
 /* Main content */
