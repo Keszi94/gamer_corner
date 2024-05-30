@@ -1,4 +1,11 @@
 
+/* Asterisk wildcard selector */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
 header {
     background-color: aquamarine;
 }
