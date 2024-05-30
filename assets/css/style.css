@@ -13,16 +13,18 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    font-family: 'Chakra Petch' , sans-serif;
+    font-family: 'Chakra Petch', sans-serif;
 }
 
 /* Header */
 header {
-    background-color: aquamarine;
+    background: rgb(131, 58, 180);
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(175, 29, 253, 1) 15%, rgba(252, 176, 69, 1) 66%);
+    color: black
 }
 
 h1 {
-    font-family: 'Russo One' , sans-serif;
+    font-family: 'Russo One', sans-serif;
 }
 
 /* Main content */
