@@ -20,7 +20,12 @@ body {
 header {
     background: rgb(131, 58, 180);
     background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(175, 29, 253, 1) 15%, rgba(252, 176, 69, 1) 66%);
-    color: black
+    color: black;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 4px black;
 }
 
 h1 {
