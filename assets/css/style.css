@@ -18,23 +18,29 @@ body {
 
 /* Header */
 header {
-    background: rgb(131, 58, 180);
-    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(175, 29, 253, 1) 15%, rgba(252, 176, 69, 1) 66%);
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(148,25,214,1) 17%, rgba(213,101,162,1) 74%, rgba(252,176,69,1) 100%);
     color: black;
     padding: 0 1rem;
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 4px black;
+    box-shadow: 0 2px 4px #FF94CD;
+}
+
+header a {
+    text-decoration: none;
+    color: inherit;
 }
 
 h1 {
     font-family: 'Russo One', sans-serif;
+    letter-spacing: 1px;
 }
 
 /* Main content */
 main {
-    background-color: orange;
+    background-color: #2E2E2E;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
 }
