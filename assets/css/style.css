@@ -103,10 +103,35 @@ main {
     color: whitesmoke;
 }
 
+/* Hero section */
+
+
 /* Footer */
-footer {
+/* footer {
     background: rgb(131, 58, 180);
     background: linear-gradient(266deg, rgba(131, 58, 180, 1) 0%, rgba(148, 25, 214, 1) 17%, rgba(213, 101, 162, 1) 74%, rgba(252, 176, 69, 1) 100%);
+} */
+
+#social-links {
+    display: flex;
+    padding: 15px 50px;
+    background: rgb(131, 58, 180);
+    background: linear-gradient(266deg, rgba(131, 58, 180, 1) 0%, rgba(148, 25, 214, 1) 17%, rgba(213, 101, 162, 1) 74%, rgba(252, 176, 69, 1) 100%);
+    justify-content: space-between;
+    
+}
+
+#social-links li {
+    display: flex;
+    text-align: center;
+    list-style-type: none;
+    display: inline;
+}
+
+#social-links i {
+   font-size: 160%;
+    padding: 5%;
+    color: black; 
 }
 
 /* Media query: tablets and larger (768px and larger) */
