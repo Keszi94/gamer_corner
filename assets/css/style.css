@@ -38,6 +38,20 @@ h1 {
     letter-spacing: 1px;
 }
 
+#menu {
+    list-style-type: none;
+    font-size: 120%;
+    letter-spacing: 2px;
+}
+
+#menu > li {
+    margin-bottom: 0.5em;
+}
+
+.active {
+    border-bottom: 2px dashed black;
+}
+
 /* Main content */
 main {
     background-color: #2E2E2E;
