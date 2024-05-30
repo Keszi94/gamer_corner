@@ -52,6 +52,17 @@ h1 {
     border-bottom: 2px dashed black;
 }
 
+/* Navbar styles - dropdown menu */
+nav {
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    left: 0;
+    padding: 0 1rem;
+    box-shadow: 0 2px 4px #FF94CD;
+    display: none;
+}
+
 /* Main content */
 main {
     background-color: #2E2E2E;
