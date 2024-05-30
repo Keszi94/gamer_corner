@@ -95,11 +95,37 @@ main {
     background-color: #2E2E2E;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 41px;
+    margin-top: 40px;
     color: whitesmoke;
 }
 
 /* Footer */
 footer {
     background-color: lightpink;
+}
+
+/* Media query: tablets and larger (768px and larger) */
+@media screen and (min-width: 768px) {
+
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+        background: none;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
 }
