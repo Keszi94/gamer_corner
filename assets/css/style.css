@@ -96,7 +96,7 @@ nav {
 
 /* Main content */
 main {
-    background-color: #2E2E2E;
+    background-color: #2E2E2E; 
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 50px;
@@ -104,7 +104,12 @@ main {
 }
 
 /* Hero section */
-
+#hero {
+    
+    height: 600px;
+    width: 100%;
+    background: url(../images/pexels-yankrukov-9072304.jpg) no-repeat center center/cover;
+}
 
 /* Footer */
 /* footer {
@@ -171,11 +176,23 @@ main {
     main {
         margin-top: 75px;
     }
+
+    #hero {
+        height: 600px;
+    width: 100%;
+    background: url(../images/pexels-yankrukov-9072304.jpg) no-repeat top center/cover;
+    }
 }
 
 /* Media query: laptops and larger (992px and larger) */
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 2px dashed black;
+    }
+
+    #hero {
+        height: 600px;
+    width: 100%;
+    background: url(../images/pexels-yankrukov-9072304.jpg) no-repeat top center/cover;
     }
 }
