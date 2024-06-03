@@ -149,6 +149,16 @@ main {
     color: white;
 }
 
+/* #what-we-offer > h2 {
+    text-align: center;
+    position: relative;
+}
+
+#arcade-image > img{
+    width: 300px;
+    position: relative;
+    justify-content: center;
+} */
 /* Footer */
 #social-links {
     display: flex;
