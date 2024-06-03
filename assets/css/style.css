@@ -88,7 +88,7 @@ h1 {
 nav {
     position: absolute;
     background: rgb(131, 58, 180);
-    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(148, 25, 214, 1) 17%, rgba(213, 101, 162, 1) 74%, rgba(252, 176, 69, 1) 100%);
+    background: linear-gradient(90deg, rgba(131, 58, 180, .6) 0%, rgba(148, 25, 214, .6) 17%, rgba(213, 101, 162, .6) 74%, rgba(252, 176, 69, .6) 100%);
     width: 100%;
     left: 0;
     padding: 0 1rem;
@@ -174,8 +174,9 @@ main {
 }
 
 #offers img {
-    width: 300px;
+    width: 310px;
     margin-bottom: 15px;
+    
 }
 
 #arcade-image {
