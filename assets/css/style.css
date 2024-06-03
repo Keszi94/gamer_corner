@@ -149,16 +149,50 @@ main {
     color: white;
 }
 
-/* #what-we-offer > h2 {
+ /* Offer Section */
+#what-we-offer > h2 {
     text-align: center;
     position: relative;
+    padding: 10px 10px;
+    font-size: 280%;
 }
 
-#arcade-image > img{
+#offers h3 {
+    padding-left: 5px;
+    text-transform: uppercase;
+}
+
+#offers hr {
+   border: 1px dashed;
+}
+
+/* Offers images */
+#offers p {
+    padding-left: 15px;
+    padding-bottom: 10px;
+    padding-top: 5px;
+}
+
+#offers img {
     width: 300px;
-    position: relative;
-    justify-content: center;
-} */
+    margin-bottom: 15px;
+}
+
+#arcade-image {
+    display: grid;
+    place-items: center;
+}
+
+#e-teams-image {
+    display: grid;
+    place-items: center;
+}
+
+#cafe-image {
+    display: grid;
+    place-items: center;
+}
+
 /* Footer */
 #social-links {
     display: flex;
