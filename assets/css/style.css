@@ -188,6 +188,22 @@ main {
 
 }
 
+/* Contact us section */
+#contact-us {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+#contact-us > h3 {
+    padding-bottom: 15px;
+font-weight: bold;   
+}
+
+.contact-way {
+font-weight: bold;
+}
+
 /* Footer */
 #social-links {
     display: flex;
