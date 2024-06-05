@@ -353,42 +353,34 @@ main {
 
     /* Offers section */
     #offers img {
-        display: none;
+        width: 40%;
+        margin-left: 80px;
     }
 
-    #circle-arcade {
-        background: url('../images/pexels-cottonbro-4836371.jpg') no-repeat top left/cover;
-        height: 90vw;
-        width: 90vw;
-        margin-bottom: 20px;
-        border-radius: 50%;
-        max-width: 300px;
-        max-height: 300px;
-        margin-right: 60%;
-    }
+/* Sign up html */
+#signup {
+    background-position: center;
+    position: relative;
+    background-position: 32%;
+}
 
-    #circle-e-teams {
+#signup-form {
+    max-width: 300px;
+    position: absolute;
+    left: 10%;
+    top: 150px;
+    
+}
 
-        background: url('../images/e-sport team.jpg') no-repeat top left/cover;
-        height: 90vw;
-        width: 90vw;
-        margin-bottom: 20px;
-        border-radius: 50%;
-        max-width: 300px;
-        max-height: 300px;
-        margin-left: 60%;
-    }
+.text-input:hover {
+    border-color: rgba(213, 101, 162, 1);
+}
 
-    #circle-cafe {
-        background: url('../images/cafe.jpg') no-repeat top left/cover;
-        height: 150vw;
-        width: 150vw;
-        margin-bottom: 20px;
-        border-radius: 50%;
-        max-width: 300px;
-        max-height: 300px;
-        margin-right: 60%;
-    }
+.join-button:hover {
+    background-color: #fafafa;
+    color: #454b1b;
+}
+
 
 }
 
@@ -414,4 +406,31 @@ main {
         margin-top: 350px;
         margin-right: 50px;
     }
+
+/* Sign up html */
+#signup {
+    background-position: center top;
+    position: relative;
+
+}
+
+#signup-form {
+    max-width: 500px;
+    position: absolute;
+    left: 10%;
+    top: 150px;
+    
+}
+
+.text-input:hover {
+    border-color: rgba(213, 101, 162, 1);
+}
+
+.join-button:hover {
+    background-color: #fafafa;
+    color: #454b1b;
+}
+
+
+
 }
