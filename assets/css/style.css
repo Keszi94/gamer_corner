@@ -195,13 +195,13 @@ main {
     margin-top: 20px;
 }
 
-#contact-us > h3 {
+#contact-us>h3 {
     padding-bottom: 15px;
-font-weight: bold;   
+    font-weight: bold;
 }
 
 .contact-way {
-font-weight: bold;
+    font-weight: bold;
 }
 
 /* Footer */
@@ -352,34 +352,97 @@ main {
     }
 
     /* Offers section */
-    #offers img {
+    
+    /* #offers img {
         width: 40%;
         margin-left: 80px;
+    } */
+
+#offers h3 {
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+
+#what-we-offer h2 {
+    margin-bottom: 20px;
+}
+
+#offers hr {
+    display: none;
+}
+
+    #what-we-offer {
+        box-sizing: border-box;
     }
 
-/* Sign up html */
-#signup {
-    background-position: center;
-    position: relative;
-    background-position: 32%;
-}
+    #arcade-container {
+        display: flex;
+    }
 
-#signup-form {
-    max-width: 300px;
-    position: absolute;
-    left: 10%;
-    top: 150px;
-    
-}
+    #arcade-text h3 {
+        text-align: center;
+    }
 
-.text-input:hover {
-    border-color: rgba(213, 101, 162, 1);
-}
+    #arcade-image {
+        /* float: left; */
+        max-width: 80%;
+        display: block;
+        margin: auto;
+    }
 
-.join-button:hover {
-    background-color: #fafafa;
-    color: #454b1b;
-}
+    #e-teams-container {
+        display: flex;
+    }
+
+    #e-teams-text h3 {
+        text-align: center;
+    }
+
+    #e-teams-image {
+        /* float: right; */
+        max-width: 80%;
+        display: block;
+        margin: auto;
+    }
+
+    #cafe-container {
+        display: flex;
+    }
+
+    #cafe-text h3 {
+        text-align: center;
+    }
+
+    #cafe-image {
+        /* float: left; */
+        max-width: 80%;
+        display: block;
+        margin: auto;
+    }
+
+    /* Sign up html */
+    #signup {
+        background-position: center;
+        position: relative;
+        background-position: 32%;
+    }
+
+    #signup-form {
+        max-width: 300px;
+        position: absolute;
+        left: 10%;
+        top: 150px;
+
+    }
+
+    .text-input:hover {
+        border-color: rgba(213, 101, 162, 1);
+    }
+
+    .join-button:hover {
+        background-color: #fafafa;
+        color: #454b1b;
+    }
 
 
 }
@@ -407,29 +470,29 @@ main {
         margin-right: 50px;
     }
 
-/* Sign up html */
-#signup {
-    background-position: center top;
-    position: relative;
+    /* Sign up html */
+    #signup {
+        background-position: center top;
+        position: relative;
 
-}
+    }
 
-#signup-form {
-    max-width: 500px;
-    position: absolute;
-    left: 10%;
-    top: 150px;
-    
-}
+    #signup-form {
+        max-width: 500px;
+        position: absolute;
+        left: 10%;
+        top: 150px;
 
-.text-input:hover {
-    border-color: rgba(213, 101, 162, 1);
-}
+    }
 
-.join-button:hover {
-    background-color: #fafafa;
-    color: #454b1b;
-}
+    .text-input:hover {
+        border-color: rgba(213, 101, 162, 1);
+    }
+
+    .join-button:hover {
+        background-color: #fafafa;
+        color: #454b1b;
+    }
 
 
 
