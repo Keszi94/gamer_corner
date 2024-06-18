@@ -17,7 +17,6 @@ The website's goal is to help everyone interested in e-sports see all the events
 * The games avaliable to play within teams.
 * A way for people to contact the Cafe for more in depth information.
 * Providing an easy way to sign-up for future events and new teams.
-* Updates on games we are planning on providing in the future.
 
 ### User Stories
 
@@ -52,7 +51,7 @@ The website's goal is to help everyone interested in e-sports see all the events
 
 ### Color Scheme
 
-![Gamer Corner Website Color Palette](/workspace/gamer_corner/assets/images/readme-images/Gamer_corner.png)
+![Gamer Corner Website Color Palette](assets/images/readme-images/Gamer_corner.png)
 
 The website uses colors that resemble neon signs and RGB lights often used in modern gaming setups. The colour palette was created using the [Coolors](https://coolors.co/) website.
 
@@ -70,3 +69,42 @@ All featured photos were taken from various free stock photo websites. I have cr
 
 ### Features
 
+* All Pages on the website have:
+
+
+* Home page 
+
+* Sign-up page
+
+* Upcoming events page
+
+
+### Accessibility
+
+- - - 
+
+## Technologies Used
+
+### Languages Used
+
+HTML and CSS were used to create this website.
+
+### Frameworks, Libraries & Programs Used
+
+Balsamiq - Used to create wireframes.
+
+Github - To save and store the files for the website.
+
+Google Fonts - To import the fonts used on the website.
+
+Font Awesome - For the iconography on the website.
+
+
+
+- - -
+
+## Deployment & Local Development
+
+### Deployment
+
+Github Pages was used to deploy the live website.
