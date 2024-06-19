@@ -304,6 +304,50 @@ main {
     background-color: #2E2E2E;
 }
 
+/* Upcomig events page */
+#container {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin: 10%;
+    color: rgba(131, 58, 180, 1);
+    
+}
+
+#container div {
+    align-items: center;
+    margin: 10px 4px;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.container h3 , p {
+   
+}
+
+.warzone {
+    background-color: #000000;
+}
+
+.lol {
+    background-color: red;
+}
+
+.fortnite {
+    background-color: orange;
+}
+
+.apex {
+    background: url(../images/events/apex.jpg);
+}
+
+.valorant {
+    background: url(../images/events/valorant.jpg);
+    
+}
+
+
 /* Media query: tablets and larger (768px and larger) */
 @media screen and (min-width: 768px) {
 
@@ -366,11 +410,6 @@ main {
     }
 
     /* Offers section */
-
-    /* #offers img {
-        width: 40%;
-        margin-left: 80px;
-    } */
 
     #offers h3 {
         font-size: 35px;
@@ -534,8 +573,8 @@ main {
         flex-direction: column;
         justify-content: center;
         align-items: flex-start;
-        margin-left: 15px;
-        margin-right: 20px;
+        margin-left: 30px;
+        margin-right: 30px;
     }
 
     /* Sign up html */
