@@ -157,6 +157,7 @@ main {
     position: relative;
     padding: 10px 10px;
     font-size: 280%;
+    margin-top: 25px;
 }
 
 #offers h3 {
@@ -471,8 +472,58 @@ main {
     }
 
     /* Offers Section */
-    
 
+    #arcade {
+        display: flex;
+        /* background-color: rgba(131, 58, 180, .5); */
+        margin-bottom: 15px;
+        background: rgb(69, 32, 94);
+        background: linear-gradient(90deg, rgba(69, 32, 94, 1) 14%, rgba(131, 58, 180, 0.804359243697479) 47%, rgba(213, 101, 162, 0.3785889355742297) 100%);
+        box-shadow: 0 2px 4px #FF94CD;
+    }
+
+    #e-teams {
+        display: flex;
+    }
+
+    #cafe {
+        display: flex;
+        /* background-color: rgba(131, 58, 180, .5); */
+        margin-bottom: 15px;
+        background: rgb(69, 32, 94);
+        background: linear-gradient(90deg, rgba(69, 32, 94, 1) 14%, rgba(131, 58, 180, 0.804359243697479) 47%, rgba(213, 101, 162, 0.3785889355742297) 100%);
+        box-shadow: 0 2px 4px #FF94CD;
+    }
+
+
+    #arcade-image {
+        max-width: 40%;
+        margin-right: 15px;
+        margin-top: 15px;
+    }
+
+    #e-teams-image {
+        max-width: 40%;
+        margin-right: 15px;
+        margin-bottom: 15px;
+    }
+
+    #cafe-image {
+        max-width: 40%;
+        margin-right: 15px;
+        margin-top: 15px;
+    }
+
+    .text-content {
+        display: flex;
+        align-content: stretch;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-start;
+        margin-left: 15px;
+        margin-right: 20px;
+    }
 
     /* Sign up html */
     #signup {
