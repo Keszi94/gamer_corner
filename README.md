@@ -1,6 +1,10 @@
-# gamer_corner
+# Gamer Corner Website
 
+The Gamer Corner website is designed to be responsive website allowing visitors to view on a range of devices. It allows visitors to find out about the Cafe and all the activities and services they offer.
 
+![Gamer Corner Website on different devices](assets/images/readme-images/amiresponsive.png)
+
+![View Gamer Corner on Github pages](https://keszi94.github.io/gamer_corner/index.html)
 - - -
 
 ## User Experience (UX)
