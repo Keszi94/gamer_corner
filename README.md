@@ -4,7 +4,7 @@ The Gamer Corner website is designed to be responsive website allowing visitors 
 
 ![Gamer Corner Website on different devices](assets/images/readme-images/amiresponsive.png)
 
-![View Gamer Corner on Github pages](https://keszi94.github.io/gamer_corner/index.html)
+[View Gamer Corner on Github pages](https://keszi94.github.io/gamer_corner/index.html)
 - - -
 
 ## User Experience (UX)
