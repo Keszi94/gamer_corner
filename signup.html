@@ -25,7 +25,7 @@
         </a>
         <input type="checkbox" id="nav-toggle" name="nav-toggle">
         <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars-staggered"></i></label>
-        <nav>
+        <nav id="signup-nav">
             <ul id="menu">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="signup.html" class="active">Sign Up</a></li>
@@ -53,7 +53,7 @@
                 <br>
 
                 <label for="tel-number">Phone Number</label>
-                <input type="tel" name="Phone Number" id="tel-number" class="text-input" required>
+                <input type="tel" name="Phone Number" id="tel-number" class="text-input" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
                 <br>
 
                 <label for="fav-game">Your Favorite Online Game</label>
@@ -62,7 +62,7 @@
                     <option value="warzone">Warzone</option>
                     <option value="valorant">Valorant</option>
                     <option value="apex">Apex Legends</option>
-                    <option value="lol">League Of Legends</option>
+                    <option value="the-finals">The finals</option>
                 </select>
 
                 <button type="submit" class="join-button">Let's Game!</button>

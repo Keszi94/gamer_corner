@@ -99,6 +99,16 @@ nav {
     top: 100%;
 }
 
+#signup-nav {
+    background: rgb(131, 58, 180);
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(148, 25, 214, 1) 17%, rgba(213, 101, 162, 1) 74%, rgba(252, 176, 69, 1) 100%);
+}
+
+#calendar-nav {
+    background: rgb(131, 58, 180);
+    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(148, 25, 214, 1) 17%, rgba(213, 101, 162, 1) 74%, rgba(252, 176, 69, 1) 100%);
+}
+
 /* Nav toggle */
 #nav-toggle:checked~nav {
     display: block;
@@ -412,7 +422,7 @@ main h1 {
     #hero {
         height: 600px;
         width: 100%;
-        background: url(../images/pexels-yankrukov-9072304.jpg) no-repeat top center/cover;
+        background: url(../images/hero.jpg) no-repeat top center/cover;
     }
 
     h2 {
@@ -537,7 +547,7 @@ main h1 {
     #hero {
         height: 645px;
         width: 100%;
-        background: url(../images/pexels-yankrukov-9072304.jpg) no-repeat top center/cover;
+        background: url(../images/hero.jpg) no-repeat top center/cover;
     }
 
     #cover-text {
