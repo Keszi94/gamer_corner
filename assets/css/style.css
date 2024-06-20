@@ -360,26 +360,6 @@ main h1 {
     text-decoration: underline solid 2px;
 }
 
-.warzone {
-    /* background: url(../images/events/warzone.jpeg) no-repeat center/cover; */
-}
-
-.lol {
-    /* background: url(../images/events/lol.jpeg) no-repeat center/cover; */
-}
-
-.fortnite {
-    /* background: url(../images/events/fortnite.jpg) no-repeat center/cover; */
-}
-
-.apex {
-    /* background: url(../images/events/apex.jpg); */
-}
-
-.valorant {
-    /* background: url(../images/events/valorant.jpg); */
-}
-
 
 /* Media query: tablets and larger (768px and larger) */
 @media screen and (min-width: 768px) {
@@ -393,6 +373,16 @@ main h1 {
         padding-right: 1px;
         background: none;
     }
+
+#signup-nav {
+    background: none;
+    background-color: none;
+}
+
+#calendar-nav {
+    background: none;
+    background-color: none;
+}
 
     #menu {
         display: flex;
