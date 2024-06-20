@@ -51,7 +51,7 @@ The website's goal is to help everyone interested in e-sports see all the events
 
 ### Color Scheme
 
-![Gamer Corner Website Color Palette](assets/images/readme-images/Gamer_corner.png)
+![Gamer Corner Website Color Palette](assets/images/readme-images/colorpalette.png)
 
 The website uses colors that resemble neon signs and RGB lights often used in modern gaming setups. The colour palette was created using the [Coolors](https://coolors.co/) website.
 
