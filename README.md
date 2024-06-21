@@ -5,49 +5,85 @@ The Gamer Corner website is designed to be responsive website allowing visitors 
 ![Gamer Corner Website on different devices](assets/images/readme-images/amiresponsive.png)
 
 [View Gamer Corner on Github pages](https://keszi94.github.io/gamer_corner/index.html)
+
 - - -
+
+## CONTENTS
+
+* [User Experience](#user-experience-ux)
+ * [Initial Discussion](#initial-discussion)
+ * [User Stories](#user-stories)
+ 
+ * [Design](#design)
+  * [Colour Scheme](#colour-scheme)
+  * [Typography](#typography)
+  * [Imagery](#imagery)
+  * [Wireframes](#wireframes)
+
+  * [Features](#features)
+  * [General Features on Each Page](#general-features-on-each-page)
+  * [Future Implementations](#future-implementations)
+  * [Accessibility](#accessibility)
+
+* [Technologies Used](#technologies-used)
+  * [Languages Used](#languages-used)
+  * [Frameworks, Libraries & Programs Used](#frameworks-libraries--programs-used)
+
+* [Deployment & Local Development](#deployment--local-development)
+  * [Deployment](#deployment)
+  * [Local Development](#local-development)
+    * [How to Fork](#how-to-fork)
+    * [How to Clone](#how-to-clone)
+
+* [Testing](#testing)
+
+* [Credits](#credits)
+  * [Code Used](#code-used)
+  * [Content](#content)
+  * [Media](#media)
+  * [Acknowledgments](#acknowledgments)
+
+---
 
 ## User Experience (UX)
 
 ### Initial Discussion
 
-Gamer Corner Cafe, located in Dublin is an Internet Cafe that markets themselves for people enjoying playig online games and meeting people with the same interest. 
-
+Gamer Corner Cafe, located in Dublin is an Internet Cafe that markets themselves for people enjoying playig online games and meeting new people with the same interest. People interested can sign up to join a team in an upcoming event they are interested in.  
+The Cafe also offers a variety of beverages that the guests can order from their desks using a program on their computers. 
 The website's goal is to help everyone interested in e-sports see all the events and fun activities the Cafe can offer them. 
 
 ### Key information for the site
 
-* What are the upcoming events scheduled for the month.
+* What are the upcoming events scheduled for the next three weeks.
 * The games avaliable to play within teams.
 * A way for people to contact the Cafe for more in depth information.
 * Providing an easy way to sign-up for future events and new teams.
 
-### User Stories
+## User Stories
 
 #### Client Goals
 
-*
-*
+* To be able to view the site on a range of device sizes.
+* 
 *
 *
 
 #### First Time Visitor Goals
 
-*
-*
-*
-*
+* I want to find out what services the Cafe offers and how I can jon the community.
+* I want to be able to navigate the site easily to find information.
+* I want to be able to find them on various social media platforms.
 
 #### Returning Visitor Goals
 
-*
-*
-*
+* I want to find up to date data on any upcoming events.
+* I want to know their contact information in case I have more question about their services.
+
 
 #### Frequent Visitor Goals
 
-*
-*
+* I want to be able to sign up for my favorite games upcoming team play date.
 
 - - - 
 
@@ -63,13 +99,17 @@ The website uses colors that resemble neon signs and RGB lights often used in mo
 
 Google Fonts was used for the following fonts: 
 
-* 
+* Chakra Petch is used for the body text on the site. It is a sans serif font.
 
-* 
+* Russo One us used for the headings on the site. It is a sans serif font. 
 
 ### Imagery 
 
 All featured photos were taken from various free stock photo websites. I have credited these in the [credits](#Credits) section.
+
+### Wireframes
+
+Wireframes were created for mobile, tablet and desktop.
 
 ### Features
 
