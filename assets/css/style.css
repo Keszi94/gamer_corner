@@ -23,7 +23,6 @@ h3 {
 
 h2 {
     font-weight: 700;
-    /* text-decoration: underline solid black 3px; */
 }
 
 h3 {
@@ -44,7 +43,6 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-
 }
 
 #logo {
@@ -131,7 +129,7 @@ main {
 
     height: 600px;
     width: 100%;
-    background: url(../images/hero.jpg) no-repeat center center/cover;
+    background: url(../images/hero.webp) no-repeat center center/cover;
     position: relative;
 }
 
@@ -245,7 +243,7 @@ main {
 
 /* Form */
 #signup {
-    background-image: url(../images/signup.jpg);
+    background-image: url(../images/signup.webp);
     background-size: cover;
     background-position: 55%;
     padding: 30px 10% 0 10%;
@@ -291,8 +289,6 @@ main {
     color: #fafafa;
 }
 
-/* Sign up page END */
-
 /* Thank you page */
 
 #thank-you-message {
@@ -329,7 +325,7 @@ main {
     align-content: center;
     justify-content: center;
     /* margin: 10%; */
-    background: url(../images/events/events.jpg) no-repeat center/cover;
+    background: url(../images/events/events.webp) no-repeat center/cover;
     color: white;
     border: solid 4px #2E2E2E;
     width: 100%;
@@ -408,7 +404,7 @@ main {
     #hero {
         height: 600px;
         width: 100%;
-        background: url(../images/hero.jpg) no-repeat top center/cover;
+        background: url(../images/hero.webp) no-repeat top center/cover;
     }
 
     h2 {
@@ -486,7 +482,6 @@ main {
     }
 
     #cafe-image {
-        /* float: left; */
         max-width: 80%;
         display: block;
         margin: auto;
@@ -528,6 +523,7 @@ main {
 
 /* Media query: laptops and larger (992px and larger) */
 @media screen and (min-width: 992px) {
+
     #menu a:hover {
         border-bottom: 2px dashed black;
     }
@@ -535,7 +531,7 @@ main {
     #hero {
         height: 645px;
         width: 100%;
-        background: url(../images/hero.jpg) no-repeat top center/cover;
+        background: url(../images/hero.webp) no-repeat top center/cover;
     }
 
     #cover-text {
