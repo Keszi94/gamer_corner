@@ -99,12 +99,7 @@ nav {
     top: 100%;
 }
 
-#signup-nav {
-    background: rgb(131, 58, 180);
-    background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(148, 25, 214, 1) 17%, rgba(213, 101, 162, 1) 74%, rgba(252, 176, 69, 1) 100%);
-}
-
-#calendar-nav {
+.solid-bg-nav {
     background: rgb(131, 58, 180);
     background: linear-gradient(90deg, rgba(131, 58, 180, 1) 0%, rgba(148, 25, 214, 1) 17%, rgba(213, 101, 162, 1) 74%, rgba(252, 176, 69, 1) 100%);
 }
@@ -128,7 +123,6 @@ main {
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 50px;
-    /* color: #f5f5f5; */
     color: #ffff
 }
 
@@ -187,7 +181,7 @@ main {
 }
 
 #offers img {
-    /* width: 300px; bug fix - made the images responsive with max-width and auto height */
+    /* bug fix - made the images responsive with max-width and auto height */
     margin-bottom: 15px;
     max-width: 100%;
     height: auto;
@@ -196,7 +190,6 @@ main {
 .offer-images {
     display: grid;
     place-items: center;
-
 }
 
 /* Contact us section */
@@ -228,7 +221,6 @@ iframe {
     background: rgb(131, 58, 180);
     background: linear-gradient(266deg, rgba(131, 58, 180, 1) 0%, rgba(148, 25, 214, 1) 17%, rgba(213, 101, 162, 1) 74%, rgba(252, 176, 69, 1) 100%);
     justify-content: space-between;
-
 }
 
 #social-links li {
@@ -243,9 +235,6 @@ iframe {
     padding: 5%;
     color: black;
 }
-
-
-
 
 /* Sign up page */
 main {
@@ -345,22 +334,16 @@ main {
     border: solid 4px #2E2E2E;
     width: 100%;
     margin-top: 20px;
-
 }
-
 
 #container div {
     align-items: center;
     margin: 10px 4px;
     width: 100%;
     text-align: center;
-    /* background-color: rgb(0, 0, 0, .2); */
-
 }
 
 #container div>div {
-    /* background: rgb(131,58,180);
-    background: linear-gradient(90deg, rgba(131,58,180,.4) 3%, rgba(0,0,0,.4) 50%, rgba(131,58,180,.4) 97%); */
     /* changed background on mobile to make text more visible */
     background: rgb(0, 0, 0, .4);
 }
@@ -415,7 +398,6 @@ main {
     #logo {
         font-size: 260%;
         line-height: 75px;
-        /* margin: 0 0.5rem; */
     }
 
     /* Main content */
@@ -522,7 +504,6 @@ main {
         position: absolute;
         left: 10%;
         top: 150px;
-
     }
 
     .text-input:hover {
@@ -542,8 +523,6 @@ main {
     #container div>div {
         background: rgb(131, 58, 180);
         background: linear-gradient(90deg, rgba(131, 58, 180, .4) 3%, rgba(0, 0, 0, .4) 50%, rgba(131, 58, 180, .4) 97%);
-
-
     }
 }
 
@@ -574,7 +553,6 @@ main {
 
     #arcade {
         display: flex;
-        /* background-color: rgba(131, 58, 180, .5); */
         margin-bottom: 15px;
         background: rgb(69, 32, 94);
         background: linear-gradient(90deg, rgba(69, 32, 94, 1) 14%, rgba(131, 58, 180, 0.804359243697479) 47%, rgba(213, 101, 162, 0.3785889355742297) 100%);
@@ -587,13 +565,11 @@ main {
 
     #cafe {
         display: flex;
-        /* background-color: rgba(131, 58, 180, .5); */
         margin-bottom: 15px;
         background: rgb(69, 32, 94);
         background: linear-gradient(90deg, rgba(69, 32, 94, 1) 14%, rgba(131, 58, 180, 0.804359243697479) 47%, rgba(213, 101, 162, 0.3785889355742297) 100%);
         box-shadow: 0 2px 4px #FF94CD;
     }
-
 
     #arcade-image {
         max-width: 40%;
@@ -628,7 +604,6 @@ main {
     #signup {
         background-position: center top;
         position: relative;
-
     }
 
     #signup-form {
@@ -636,7 +611,6 @@ main {
         position: absolute;
         left: 10%;
         top: 150px;
-
     }
 
     .text-input:hover {
@@ -647,7 +621,4 @@ main {
         background-color: #fafafa;
         color: #454b1b;
     }
-
-
-
 }
