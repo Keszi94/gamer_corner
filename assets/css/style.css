@@ -324,7 +324,6 @@ main {
     display: flex;
     align-content: center;
     justify-content: center;
-    /* margin: 10%; */
     background: url(../images/events/events.webp) no-repeat center/cover;
     color: white;
     border: solid 4px #2E2E2E;
@@ -369,11 +368,7 @@ main {
         background: none;
     }
 
-    #signup-nav {
-        background: none;
-    }
-
-    #calendar-nav {
+    .solid-bg-nav {
         background: none;
     }
 
@@ -443,7 +438,7 @@ main {
         box-sizing: border-box;
     }
 
-    #arcade-container {
+    .offers-containers {
         display: flex;
     }
 
@@ -452,14 +447,9 @@ main {
     }
 
     #arcade-image {
-        /* float: left; */
         max-width: 80%;
         display: block;
         margin: auto;
-    }
-
-    #e-teams-container {
-        display: flex;
     }
 
     #e-teams-text h3 {
@@ -467,14 +457,9 @@ main {
     }
 
     #e-teams-image {
-        /* float: right; */
         max-width: 80%;
         display: block;
         margin: auto;
-    }
-
-    #cafe-container {
-        display: flex;
     }
 
     #cafe-text h3 {
