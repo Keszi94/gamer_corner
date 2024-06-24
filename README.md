@@ -65,9 +65,9 @@ The website's goal is to help everyone interested in e-sports see all the events
 #### Client Goals
 
 * To be able to view the site on a range of device sizes.
-* 
-*
-*
+* To make it clear for potential clients what games and services the Cafe provides.
+* To make it easy for members to see upcoming events.  
+* To allow people to be able to contact Gamer Corner Cafe for further informatin regarding services, events and offers. 
 
 #### First Time Visitor Goals
 
@@ -83,7 +83,7 @@ The website's goal is to help everyone interested in e-sports see all the events
 
 #### Frequent Visitor Goals
 
-* I want to be able to sign up for my favorite games upcoming team play date.
+* I want to be able to sign up for my favorite game's upcoming team play event.
 
 - - - 
 
@@ -111,16 +111,25 @@ All featured photos were taken from various free stock photo websites. I have cr
 
 Wireframes were created for mobile, tablet and desktop.
 
+[Home Page Wireframe](assets/images/readme-images/homepage.png)
+
+[Sign Up Page Wireframe](assets/images/readme-images/signuppage.png)
+
+[Upcoming Events Page Wireframe](assets/images/readme-images/upcomingeventspage.png)
+
 ### Features
+
+The website is comprised of four pages, three of which are accessible from the navigation menu (home page, sign up page & upcoming events page). The fourth page is a thank you page which is shown once a user submits the form on the sign up page.
+
 
 * All Pages on the website have:
 
 
-* Home page 
+ * Home page 
 
-* Sign-up page
+ * Sign-up page
 
-* Upcoming events page
+ * Upcoming events page
 
 
 ### Accessibility
@@ -152,3 +161,5 @@ Font Awesome - For the iconography on the website.
 ### Deployment
 
 Github Pages was used to deploy the live website.
+
+
