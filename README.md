@@ -229,3 +229,24 @@ To clone the gamer_corner repository:
 Testing was ongoing throughout the entire build. I utilised Chrome developer tools while building to pinpoint and troubleshoot any issues as I went along.
 
 The following issues were raised during my mid project meeting with my mentor:
+
+* 
+
+### W3C Validator
+
+The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS in the style.css file.
+
+* [Index Page HTML](assets/images/readme-images/homepage-checked.png)
+* [Sign Up Page HTML](assets/images/readme-images/signup-checked.png)
+* [Upcoming Events Page HTML](assets/images/readme-images/upcoming-events-checked.png)
+* [Thank You Page HTML](assets/images/readme-images/thankyou-checked.png)
+* [404 Page HTML](assets/images/readme-images/error-page-checked.png)
+* [style.css CSS](assets/images/readme-images/css-checked.png)
+
+### Solved Bugs
+
+1. 
+
+### Known Bugs
+
+1. 
