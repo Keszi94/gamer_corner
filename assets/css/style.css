@@ -355,7 +355,7 @@ main {
 
 /* 404 page */
 #error-main {
-    margin-top: 250px;
+    /* margin-top: 250px; */
     text-align: center;
     vertical-align: middle;
 }
@@ -367,6 +367,12 @@ main {
     font-size: 100%;
     background-color: rgb(56, 3, 85);
     color: #fafafa;
+}
+
+#error-img {
+    max-width: 60%;
+    margin-bottom: 30px;
+    margin-top: 70px;
 }
 
 /* Media query: tablets and larger (768px and larger) */
