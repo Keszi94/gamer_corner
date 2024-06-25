@@ -124,10 +124,15 @@ The website is comprised of four pages, three of which are accessible from the n
 * All pages on the wbsite have:
    * A responsive navigation bar at the top which allows the user to navigate through the site. To the left of the navigation bar is the text Gamer Corner. To the right of the navigation bar are the links to the websites pages (home, sign up, upcoming events). 
     When viewing with mobile devices the navigation links change to a burger toggler. This was implemented to give the site a clean look and to promote a good user experience, as users are used to seeing the burger icon when on mobile devices to navigate a site. The navbar's dropdown menu has a solid background on the sign up and upcoming events pages to make the text visible over the text on the page behind it. The dropdown's background is transparent on the home page so that the picture behind it is not cut. 
+    
     ![Dropdown menus on each page](assets/images/readme-images/dropdown-menu.png)
+   
    * A footer which contains social media icon links to instagram, facebook, tiktok, twitter and youtube. 
+   
    ![Footer](assets/images/readme-images/footer.png)
+   
    * The Thank you page do not have links or a footer because the page automatically redirects to the home page after ten seconds. 
+   
    ![Thank you page](assets/images/readme-images/thankyoupagescrs.png)
 
 * Home page:
@@ -137,21 +142,27 @@ The website is comprised of four pages, three of which are accessible from the n
   * Contact Us Section. This section provides the following information: the Cafe's mobile number, email address and address. This section is meant to provide ways for visitors to contact the Cafe if they need further information regarding the services and offers. 
   * Google Maps. At the bottom of the page, above the fooer is a map with the exact loaction of the Cafe to make it easier to find the location of it for first time visitors. 
 
+  ![Get in touch and map](assets/images/readme-images/getintouchscrs.png)
+
 * Sign up page:
 
   * Sign Up Form. The form requires visitors who would like to become members to provide their first name, last name, email address and phone number. They also have to choose their favorite game from a drop down list. After fillig out the form and clicking the submit button the website takes the visitor to the thank you page. 
+
+  ![Sign up page](assets/images/readme-images/signuppagescrs.png)
 
 * Upcoming events page:
  
   * Events Calendar. This page contains three columns stating the upcoming event dates for the next upcoming three weeks. The scetions provide information on at what time the events are happening, what game is being played on that day and how many groups/players are allowed to participate in the event. 
 
+  ![Upcoming events page](assets/images/readme-images/upcomingeventsscrs.png)
+
 * Thank you page:
   
   * A message thanks the user for submitting the form and lets them know someone will be in touch soon.
   * A message informing the visitor that they will be redirected to the main page in ten seconds.  
+
+  ![Thank you page](assets/images/readme-images/thankyouscrs.png)
  
-
-
 ### Accessibility
 
 I have been mindful during coding to ensure that the website is as accessible friendly as possible. I have achieved this by:
