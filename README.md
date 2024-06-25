@@ -123,16 +123,18 @@ The website is comprised of four pages, three of which are accessible from the n
 
 * All pages on the wbsite have:
    * A responsive navigation bar at the top which allows the user to navigate through the site. To the left of the navigation bar is the text Gamer Corner. To the right of the navigation bar are the links to the websites pages (home, sign up, upcoming events). 
-    When viewing with mobile devices the navigation links change to a burger toggler. This was implemented to give the site a clean look and to promote a good user experience, as users are used to seeing the burger icon when on mobile devices to navigate a site.
-    The navbar's dropdown menu has a solid background on the sign up and upcoming events pages to make the text visible over the text on the page behind it. The dropdown's background is transparent on the home page so that the picture behind it is not cut. 
+    When viewing with mobile devices the navigation links change to a burger toggler. This was implemented to give the site a clean look and to promote a good user experience, as users are used to seeing the burger icon when on mobile devices to navigate a site. The navbar's dropdown menu has a solid background on the sign up and upcoming events pages to make the text visible over the text on the page behind it. The dropdown's background is transparent on the home page so that the picture behind it is not cut. 
+    ![Dropdown menus on each page](assets/images/readme-images/dropdown-menu.png)
    * A footer which contains social media icon links to instagram, facebook, tiktok, twitter and youtube. 
+   ![Footer](assets/images/readme-images/footer.png)
    * The Thank you page do not have links or a footer because the page automatically redirects to the home page after ten seconds. 
+   ![Thank you page](assets/images/readme-images/thankyoupagescrs.png)
 
 * Home page:
   
-  * What We Offer Section. This section is broken down into three subsections: Arcade room, E-teams events and Cafe with table service. This section is meant to inform the wbsite's visitors about all the activities and services in the Cafe. 
+  * What We Offer Section. This section is broken down into three subsections: Arcade room, E-teams events and Cafe with table service. This section is meant to inform the site's visitors about all the activities and services in the Cafe. 
   On large screens the first and third section have a gradient background to visually seperate all three sections and all three pictures are pushed to the right side of the screen to put the text more into focus. On smaller devices the pictures are positioned in the middle of the page, with the text placed above them. 
-  * Contact Us Section. This section provides the following information: the Cafe's mobile number, email address and address. This section is meant to provide ways for visitors to cantact the Cafe if they need further information regarding the services and offers. 
+  * Contact Us Section. This section provides the following information: the Cafe's mobile number, email address and address. This section is meant to provide ways for visitors to contact the Cafe if they need further information regarding the services and offers. 
   * Google Maps. At the bottom of the page, above the fooer is a map with the exact loaction of the Cafe to make it easier to find the location of it for first time visitors. 
 
 * Sign up page:
@@ -186,6 +188,8 @@ Google Dev Tools - To troubleshoot and test features, solve issues with responsi
 [Convertio](https://convertio.co/jpg-webp/) To resize images and change to webp format.
 
 [Am I Responsive?](http://ami.responsivedesign.is/) To show the website image on a range of devices.
+
+[Chat GPT](https://chatgpt.com/) To help create the basic text content of the ,,what we offer,, paragraphs.
 
 - - -
 
