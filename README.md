@@ -171,32 +171,6 @@ HTML and CSS were used to create this website.
 
 Balsamiq - Used to create wireframes.
 
-Github - To save and store the files for the website.
-
-Google Fonts - To import the fonts used on the website.
-
-Font Awesome - For the iconography on the website.
-
-Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
-
-[Am I Responsive?](https://ui.dev/amiresponsive) To show the website image on a range of devices.
-
-[Fotor](https://www.fotor.com/features/webp-compressor/) To compress images.
-
-[Covertio](https://convertio.co/jpg-webp/) To change images to webp format.
-
-- - -
-
-## Deployment & Local Development
-
-### Deployment
-
-Github Pages was used to deploy the live website.
-
-### Frameworks, Libraries & Programs Used
-
-Balsamiq - Used to create wireframes.
-
 Git - For version control.
 
 Github - To save and store the files for the website.
