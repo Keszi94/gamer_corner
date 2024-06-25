@@ -355,7 +355,6 @@ main {
 
 /* 404 page */
 #error-main {
-    /* margin-top: 250px; */
     text-align: center;
     vertical-align: middle;
 }
@@ -365,7 +364,7 @@ main {
     border-radius: 2px;
     padding: 15px 32px;
     font-size: 100%;
-    background-color: rgb(56, 3, 85);
+    background-color: #834380;
     color: #fafafa;
 }
 
@@ -610,5 +609,10 @@ main {
     .join-button:hover {
         background-color: #fafafa;
         color: #454b1b;
+    }
+
+    /* 404 page */
+    #error-img {
+        max-width: 40%;
     }
 }
