@@ -615,4 +615,8 @@ main {
     #error-img {
         max-width: 40%;
     }
+
+    #error-main {
+        margin-bottom: 30px;
+    }
 }
