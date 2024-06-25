@@ -289,22 +289,6 @@ main {
     color: #fafafa;
 }
 
-/* Thank you page */
-
-#thank-you-message {
-    margin-top: 250px;
-    text-align: center;
-    vertical-align: middle;
-    background: rgb(69, 32, 94);
-    background: linear-gradient(90deg, rgba(69, 32, 94, 1) 14%, rgba(131, 58, 180, 0.804359243697479) 47%, rgba(213, 101, 162, 0.3785889355742297) 100%);
-    padding-top: 70px;
-    padding-bottom: 70px;
-}
-
-#thank-you-header {
-    background-color: #2E2E2E;
-}
-
 /* Upcomig events page */
 
 #calendar-main {
@@ -353,6 +337,37 @@ main {
     text-decoration: underline solid 2px;
 }
 
+/* Thank you page */
+
+#thank-you-message {
+    margin-top: 250px;
+    text-align: center;
+    vertical-align: middle;
+    background: rgb(69, 32, 94);
+    background: linear-gradient(90deg, rgba(69, 32, 94, 1) 14%, rgba(131, 58, 180, 0.804359243697479) 47%, rgba(213, 101, 162, 0.3785889355742297) 100%);
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+#thank-you-header {
+    background-color: #2E2E2E;
+}
+
+/* 404 page */
+#error-main {
+    margin-top: 250px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+#error-button {
+    margin-top: 20px;
+    border-radius: 2px;
+    padding: 15px 32px;
+    font-size: 100%;
+    background-color: rgb(56, 3, 85);
+    color: #fafafa;
+}
 
 /* Media query: tablets and larger (768px and larger) */
 @media screen and (min-width: 768px) {
@@ -552,22 +567,10 @@ main {
         box-shadow: 0 2px 4px #FF94CD;
     }
 
-    #arcade-image {
-        max-width: 40%;
-        margin-right: 15px;
+    #offers img {
+        max-width: 700px;
         margin-top: 15px;
-    }
-
-    #e-teams-image {
-        max-width: 40%;
         margin-right: 15px;
-        margin-bottom: 15px;
-    }
-
-    #cafe-image {
-        max-width: 40%;
-        margin-right: 15px;
-        margin-top: 15px;
     }
 
     .text-content {
