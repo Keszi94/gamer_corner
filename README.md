@@ -175,8 +175,6 @@ Git - For version control.
 
 Github - To save and store the files for the website.
 
-Bootstrap Version 4.6 - The framework for the website. Code for the navigation bar, carousel, cards and form were used and modified. Additional CSS styling was also implemented in style.css.
-
 Google Fonts - To import the fonts used on the website.
 
 Font Awesome - For the iconography on the website.
@@ -185,13 +183,9 @@ Google Dev Tools - To troubleshoot and test features, solve issues with responsi
 
 [Tiny PNG](https://tinypng.com/) To compress images.
 
-[Birme](https://www.birme.net/) To resize images and change to webp format.
-
-[Favicon.io](https://favicon.io/) To create favicon.
+[Convertio](https://convertio.co/jpg-webp/) To resize images and change to webp format.
 
 [Am I Responsive?](http://ami.responsivedesign.is/) To show the website image on a range of devices.
-
-[Shields.io](https://shields.io/) To add badges to the README
 
 - - -
 
