@@ -122,12 +122,11 @@ Wireframes were created for mobile, tablet and desktop.
 The website is comprised of four pages, three of which are accessible from the navigation menu (home page, sign up page & upcoming events page). The fourth page is a thank you page which is shown once a user submits the form on the sign up page.
 
 * All pages on the wbsite have:
-
- * A responsive navigation bar at the top which allows the user to navigate through the site. To the left of the navigation bar is the text Gamer Corner. To the right of the navigation bar are the links to the websites pages (home, sign up, upcoming events). 
+   * A responsive navigation bar at the top which allows the user to navigate through the site. To the left of the navigation bar is the text Gamer Corner. To the right of the navigation bar are the links to the websites pages (home, sign up, upcoming events). 
     When viewing with mobile devices the navigation links change to a burger toggler. This was implemented to give the site a clean look and to promote a good user experience, as users are used to seeing the burger icon when on mobile devices to navigate a site.
     The navbar's dropdown menu has a solid background on the sign up and upcoming events pages to make the text visible over the text on the page behind it. The dropdown's background is transparent on the home page so that the picture behind it is not cut. 
- * A footer which contains social media icon links to instagram, facebook, tiktok, twitter and youtube. 
- * The Thank ypu page do not have links or a footer because the page automatically redirects to the home page after ten seconds. 
+   * A footer which contains social media icon links to instagram, facebook, tiktok, twitter and youtube. 
+   * The Thank you page do not have links or a footer because the page automatically redirects to the home page after ten seconds. 
 
 * Home page:
   
@@ -138,11 +137,27 @@ The website is comprised of four pages, three of which are accessible from the n
 
 * Sign up page:
 
-  * 
+  * Sign Up Form. The form requires visitors who would like to become members to provide their first name, last name, email address and phone number. They also have to choose their favorite game from a drop down list. After fillig out the form and clicking the submit button the website takes the visitor to the thank you page. 
+
+* Upcoming events page:
+ 
+  * Events Calendar. This page contains three columns stating the upcoming event dates for the next upcoming three weeks. The scetions provide information on at what time the events are happening, what game is being played on that day and how many groups/players are allowed to participate in the event. 
+
+* Thank you page:
+  
+  * A message thanks the user for submitting the form and lets them know someone will be in touch soon.
+  * A message informing the visitor that they will be redirected to the main page in ten seconds.  
  
 
 
 ### Accessibility
+
+I have been mindful during coding to ensure that the website is as accessible friendly as possible. I have achieved this by:
+
+* Using semantic HTML.
+* Using descriptive alt attributes on images on the site.
+* Ensuring menus are accessible by marking the current page as current for screen readers.
+* Ensuring that there is a sufficient colour contrast throughout the site.
 
 - - - 
 
@@ -162,7 +177,13 @@ Google Fonts - To import the fonts used on the website.
 
 Font Awesome - For the iconography on the website.
 
+Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
 
+[Am I Responsive?](https://ui.dev/amiresponsive) To show the website image on a range of devices.
+
+[Fotor](https://www.fotor.com/features/webp-compressor/) To compress images.
+
+[Covertio](https://convertio.co/jpg-webp/) To change images to webp format.
 
 - - -
 
@@ -172,4 +193,71 @@ Font Awesome - For the iconography on the website.
 
 Github Pages was used to deploy the live website.
 
+### Frameworks, Libraries & Programs Used
 
+Balsamiq - Used to create wireframes.
+
+Git - For version control.
+
+Github - To save and store the files for the website.
+
+Bootstrap Version 4.6 - The framework for the website. Code for the navigation bar, carousel, cards and form were used and modified. Additional CSS styling was also implemented in style.css.
+
+Google Fonts - To import the fonts used on the website.
+
+Font Awesome - For the iconography on the website.
+
+Google Dev Tools - To troubleshoot and test features, solve issues with responsiveness and styling.
+
+[Tiny PNG](https://tinypng.com/) To compress images.
+
+[Birme](https://www.birme.net/) To resize images and change to webp format.
+
+[Favicon.io](https://favicon.io/) To create favicon.
+
+[Am I Responsive?](http://ami.responsivedesign.is/) To show the website image on a range of devices.
+
+[Shields.io](https://shields.io/) To add badges to the README
+
+- - -
+
+## Deployment & Local Development
+
+### Deployment
+
+Github Pages was used to deploy the live website. The instructions to achieve this are below:
+
+1. Log in (or sign up) to Github.
+2. Find the repository for this project, gamer_corner.
+3. Click on the Settings link.
+4. Click on the Pages link in the left hand side navigation bar.
+5. In the Source section, choose main from the drop down select branch menu. Select Root from the drop down select folder menu.
+6. Click Save. Your live Github Pages site is now deployed at the URL shown.
+
+### Local Development
+
+#### How to Fork
+
+To fork the gamer_corner repository:
+
+1. Log in (or sign up) to Github.
+2. Go to the repository for this project, [Keszi94/gamer_corner](https://github.com/Keszi94/gamer_corner).
+3. Click the Fork button in the top right corner.
+
+#### How to Clone
+
+To clone the gamer_corner repository:
+
+1. Log in (or sign up) to GitHub.
+2. Go to the repository for this project, Keszi94/gamer_corner.
+3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
+
+- - -
+
+## Testing
+
+Testing was ongoing throughout the entire build. I utilised Chrome developer tools while building to pinpoint and troubleshoot any issues as I went along.
+
+The following issues were raised during my mid project meeting with my mentor:
