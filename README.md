@@ -133,7 +133,7 @@ The website is comprised of four pages, three of which are accessible from the n
    
    * The Thank you page do not have links or a footer because the page automatically redirects to the home page after ten seconds. 
    
-   ![Thank you page](assets/images/readme-images/thankyoupagescrs.png)
+   ![Thank you page](assets/images/readme-images/thankyounomenuscrs.png)
 
 * Home page:
   
@@ -201,6 +201,8 @@ Google Dev Tools - To troubleshoot and test features, solve issues with responsi
 [Am I Responsive?](http://ami.responsivedesign.is/) To show the website image on a range of devices.
 
 [Chat GPT](https://chatgpt.com/) To help create the basic text content of the ,,what we offer,, paragraphs.
+
+[CSS Gradient](https://cssgradient.io/) To help create gradient background colors.
 
 - - -
 
