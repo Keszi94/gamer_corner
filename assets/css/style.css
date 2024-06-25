@@ -613,10 +613,10 @@ main {
 
     /* 404 page */
     #error-img {
-        max-width: 40%;
+        max-width: 30%;
     }
 
     #error-main {
-        margin-bottom: 30px;
+        padding-bottom: 30px;
     }
 }
