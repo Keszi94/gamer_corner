@@ -50,8 +50,8 @@ The Gamer Corner website is designed to be responsive website allowing visitors 
 ### Initial Discussion
 
 Gamer Corner Cafe, located in Dublin is an Internet Cafe that markets themselves for people enjoying playig online games and meeting new people with the same interest. People interested can sign up to join a team in an upcoming event.  
-The Cafe also offers a variety of beverages that the guests can order from their desks using a program on their computers. 
-The website's goal is to help everyone interested in e-sports see all the events and fun activities the Cafe can offer them. 
+The Cafe also offers a variety of beverages that the guests can order from the comfort of their desk simply by using a program on their computers. 
+The website's goal is to help everyone interested in e-sports to be informed of all the events and fun activities the Cafe can offer them. 
 
 ### Key information for the site
 
@@ -66,9 +66,9 @@ The website's goal is to help everyone interested in e-sports see all the events
 #### Client Goals
 
 * To be able to view the site on a range of device sizes.
-* To make it clear for potential clients what games and services the Cafe provides.
+* To make it clear for potential clients what services and activities the Cafe provides.
 * To make it easy for members to see upcoming events.  
-* To allow people to be able to contact Gamer Corner Cafe for further informatin regarding services, events and offers. 
+* To allow people to be able to contact Gamer Corner Cafe for further information regarding services, events and offers. 
 
 #### First Time Visitor Goals
 
@@ -78,7 +78,7 @@ The website's goal is to help everyone interested in e-sports see all the events
 
 #### Returning Visitor Goals
 
-* I want to find up to date data on any upcoming events.
+* I want to find up to date data regarding upcoming events.
 * I want to know their contact information in case I have more question about their services.
 
 
@@ -185,8 +185,6 @@ HTML and CSS were used to create this website.
 
 Balsamiq - Used to create wireframes.
 
-Git - For version control.
-
 Github - To save and store the files for the website.
 
 Google Fonts - To import the fonts used on the website.
@@ -267,6 +265,8 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 
 4. On the 404 error page I have used an anchor element around the button to link it to the home page. When testing the page on W3C it flagged the code as an error. With the help of an article on [Scaler](https://www.scaler.com/topics/) I have incorporated the link into the button element using onclick. 
 
+5. On the Upcoming events page the semi-transparent gradient background made the text hard to read on mobile devices. I have changed the semi-transparent background on mobile size to black which makes the white text easy to read over the background picture.
+
 ### Known Bugs
 
 1. When checking my website using [Wave](https://wave.webaim.org/) the site flagged an empty label as an error. I have used this label to add the burger icon to the navbar so it only contains an icon taken from FontAwesome. This label is no-diplay on larger screen sizes.
@@ -285,7 +285,7 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 
 * [CSS Gradient](https://cssgradient.io/)
 * [How to Make a Button Link to Another Page in HTML?](https://www.scaler.com/topics/how-to-make-a-button-link-to-another-page-in-html/)
-* [CSS Tutorial](https://www.w3schools.com/css/default.asp) Used this website to help me use some codes correctly. 
+* [CSS Tutorial](https://www.w3schools.com/css/default.asp) Used this website to help me write some codes correctly. 
 
 ### Content
 
@@ -296,7 +296,7 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 
 #### Images
 
-All images were taken from the stock free image site, [Pexels](https://www.pexels.com/).
+All images were taken from the stock free image sites [Pexels](https://www.pexels.com/) and [Unsplash](https://unsplash.com/).
 
 ### Acknowledgments
 
