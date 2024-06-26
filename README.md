@@ -274,7 +274,11 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 
 ### Known Bugs
 
-1. 
+1. When checking my website using [Wave](https://wave.webaim.org/) the site flagged an empty label as an error. I have used this label to add the burger icon to the navbar so it only contains an icon taken from FontAwesome. This label is no-diplay on larger screen sizes.
+![Label bug](assets/images/readme-images/labelissueflagged.png)
+
+2. Wave also gave me an alert on a duplicate link to the home page in the header. One of them is the clickable logo on the left of the page, the second one is the ,,Home,, list item in the menu.
+![Duplicate link bug](assets/images/readme-images/duplicatelinkflagged.png)
 
 - - - 
 
@@ -288,7 +292,7 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 ### Content
 
 * I have asked [Chat GPT](https://chatgpt.com/) to create a basic blurb structure for the ,,what we offer,, section on the home page. 
-* I created my Readme file based on [Kera Cudmore's](https://github.com/kera-cudmore) Bully Book Club Readme file.
+* I created my Readme file based on [Kera Cudmore's](https://github.com/kera-cudmore) [Bully Book Club](https://github.com/kera-cudmore/Bully-Book-Club) Readme file.
 
 ### Media
 
