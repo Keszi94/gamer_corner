@@ -262,8 +262,42 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 
 ### Solved Bugs
 
-1. 
+1. The phone number area in the form would take any characters not just numbers and still allow the form to be submitted. My mentor, Graeme Taylor spotted that there was no pattern added to the tel input. I fixed it by adding a pattern rule to the code. Now, when the phone area is filled with letters the form displays an error message. 
+
+2. When I changed the dropdown menu background to solid on the sign up and upcoming events pages for mobile devices, the solid background created a box over the menu list items on larger device sizes. I have fixed this by putting no background colors behind the menu item list on larger screen sizes. 
+
+3. When adding the map to the bottom of the home page it would only display on the left side of the page on large screen sizes. I have corrected this issue by changing the width of the map element to a 100% on all device sizes.
+
+4. On the 404 error page I have used an anchor element around the button to link it to the home page. When testing the page on W3C it flagged the code as an error. With the help of an article on [Scaler](https://www.scaler.com/topics/) I have incorporated the link into the button element using onclick. 
+
+5. 
 
 ### Known Bugs
 
 1. 
+
+- - - 
+
+## Credits
+
+### Code Used
+
+* [CSS Gradient](https://cssgradient.io/)
+* [How to Make a Button Link to Another Page in HTML?](https://www.scaler.com/topics/how-to-make-a-button-link-to-another-page-in-html/)
+
+### Content
+
+* I have asked [Chat GPT](https://chatgpt.com/) to create a basic blurb structure for the ,,what we offer,, section on the home page. 
+* I created my Readme file based on [Kera Cudmore's](https://github.com/kera-cudmore) Bully Book Club Readme file.
+
+### Media
+
+#### Images
+
+All images were taken from the stock free image site, [Pexels](https://www.pexels.com/).
+
+### Acknowledgments
+
+I would like to acknowledge the following people who helped me along the way in completing my first milestone project:
+
+* [Graeme Taylor](https://github.com/deye9), my Code Institute Mentor.

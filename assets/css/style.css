@@ -209,6 +209,7 @@ main {
 /* Map */
 
 iframe {
+    /* Fill out full width of page on all devices */
     width: 100%;
 }
 
@@ -385,6 +386,7 @@ main {
         box-shadow: none;
         width: fit-content;
         padding-right: 1px;
+        /* bug fix: had the dropdown colors show behinf the list items, took out background */
         background: none;
     }
 
