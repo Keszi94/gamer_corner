@@ -72,7 +72,7 @@ The website's goal is to help everyone interested in e-sports to be informed of 
 
 #### First Time Visitor Goals
 
-* I want to find out what services the Cafe offers and how I can jon the community.
+* I want to find out what services the Cafe offers and how I can join the community.
 * I want to be able to navigate the site easily to find information.
 * I want to be able to find them on various social media platforms.
 
@@ -141,7 +141,7 @@ The website is comprised of four pages, three of which are accessible from the n
   * What We Offer Section. This section is broken down into three subsections: Arcade room, E-teams events and Cafe with table service. This section is meant to inform the site's visitors about all the activities and services in the Cafe. 
   On large screens the first and third section have a gradient background to visually seperate all three sections and all three pictures are pushed to the right side of the screen to put the text more into focus. On smaller devices the pictures are positioned in the middle of the page, with the text placed above them. 
   * Contact Us Section. This section provides the following information: the Cafe's mobile number, email address and address. This section is meant to provide ways for visitors to contact the Cafe if they need further information regarding the services and offers. 
-  * Google Maps. At the bottom of the page, above the fooer is a map with the exact loaction of the Cafe to make it easier to find the location of it for first time visitors. 
+  * Google Maps. At the bottom of the page, above the footer is a map with the exact location of the Cafe to make it easier to find for first time visitors. 
 
   ![Get in touch and map](assets/images/readme-images/getintouchscrs.png)
 
@@ -257,7 +257,7 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 
 ### Solved Bugs
 
-1. The phone number area in the form would take any characters not just numbers and still allow the form to be submitted. My mentor, Graeme Taylor spotted that there was no pattern added to the tel input. I fixed it by adding a pattern rule to the code. Now, when the phone area is filled with letters the form displays an error message. 
+1. The phone number area in the form would take any characters not just numbers and still allow the form to be submitted. My mentor, Graeme Taylor spotted that there was no pattern added to the telephone input. I fixed it by adding a pattern rule to the code. Now, when the phone area is filled with letters the form displays an error message. 
 
 2. When I changed the dropdown menu background to solid on the sign up and upcoming events pages for mobile devices, the solid background created a box over the menu list items on larger device sizes. I have fixed this by putting no background colors behind the menu item list on larger screen sizes. 
 
@@ -302,4 +302,4 @@ All images were taken from the stock free image sites [Pexels](https://www.pexel
 
 I would like to acknowledge the following people who helped me along the way in completing my first milestone project:
 
-* [Graeme Taylor](https://github.com/deye9), my Code Institute Mentor.
+* Graeme Taylor, my Code Institute Mentor.
