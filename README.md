@@ -49,7 +49,7 @@ The Gamer Corner website is designed to be responsive website allowing visitors 
 
 ### Initial Discussion
 
-Gamer Corner Cafe, located in Dublin is an Internet Cafe that markets themselves for people enjoying playig online games and meeting new people with the same interest. People interested can sign up to join a team in an upcoming event they are interested in.  
+Gamer Corner Cafe, located in Dublin is an Internet Cafe that markets themselves for people enjoying playig online games and meeting new people with the same interest. People interested can sign up to join a team in an upcoming event.  
 The Cafe also offers a variety of beverages that the guests can order from their desks using a program on their computers. 
 The website's goal is to help everyone interested in e-sports see all the events and fun activities the Cafe can offer them. 
 
@@ -59,6 +59,7 @@ The website's goal is to help everyone interested in e-sports see all the events
 * The games avaliable to play within teams.
 * A way for people to contact the Cafe for more in depth information.
 * Providing an easy way to sign-up for future events and new teams.
+* Informing visitors on the new table order system the Cafe is using.
 
 ## User Stories
 
@@ -245,10 +246,6 @@ To clone the gamer_corner repository:
 
 Testing was ongoing throughout the entire build. I utilised Chrome developer tools while building to pinpoint and troubleshoot any issues as I went along.
 
-The following issues were raised during my mid project meeting with my mentor:
-
-* 
-
 ### W3C Validator
 
 The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS in the style.css file.
@@ -270,14 +267,14 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 
 4. On the 404 error page I have used an anchor element around the button to link it to the home page. When testing the page on W3C it flagged the code as an error. With the help of an article on [Scaler](https://www.scaler.com/topics/) I have incorporated the link into the button element using onclick. 
 
-5. 
-
 ### Known Bugs
 
 1. When checking my website using [Wave](https://wave.webaim.org/) the site flagged an empty label as an error. I have used this label to add the burger icon to the navbar so it only contains an icon taken from FontAwesome. This label is no-diplay on larger screen sizes.
+
 ![Label bug](assets/images/readme-images/labelissueflagged.png)
 
-2. Wave also gave me an alert on a duplicate link to the home page in the header. One of them is the clickable logo on the left of the page, the second one is the ,,Home,, list item in the menu.
+2. Wave also gave me an alert on a redundant link to the home page in the header. One of them is the clickable logo on the left of the page, the second one is the ,,Home,, list item in the menu.
+
 ![Duplicate link bug](assets/images/readme-images/duplicatelinkflagged.png)
 
 - - - 
@@ -288,6 +285,7 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 
 * [CSS Gradient](https://cssgradient.io/)
 * [How to Make a Button Link to Another Page in HTML?](https://www.scaler.com/topics/how-to-make-a-button-link-to-another-page-in-html/)
+* [CSS Tutorial](https://www.w3schools.com/css/default.asp) Used this website to help me use some codes correctly. 
 
 ### Content
 
