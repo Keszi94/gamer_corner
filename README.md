@@ -132,7 +132,7 @@ The website is comprised of four pages, three of which are accessible from the n
    
    ![Footer](assets/images/readme-images/footer.png)
    
-   * The Thank you page do not have links or a footer because the page automatically redirects to the home page after ten seconds. 
+   * The Thank you page does not have a footer or links in the header because the page automatically redirects to the home page after ten seconds. 
    
    ![Thank you page](assets/images/readme-images/thankyounomenuscrs.png)
 
@@ -244,6 +244,7 @@ To clone the gamer_corner repository:
 
 Testing was ongoing throughout the entire build. I utilised Chrome developer tools while building to pinpoint and troubleshoot any issues as I went along.
 
+
 ### W3C Validator
 
 The W3C validator was used to validate the HTML on all pages of the website. It was also used to validate CSS in the style.css file.
@@ -254,6 +255,7 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 * [Thank You Page HTML](assets/images/readme-images/thankyou-checked.png)
 * [404 Page HTML](assets/images/readme-images/error-page-checked.png)
 * [style.css CSS](assets/images/readme-images/css-checked.png)
+
 
 ### Solved Bugs
 
@@ -266,6 +268,11 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 4. On the 404 error page I have used an anchor element around the button to link it to the home page. When testing the page on W3C it flagged the code as an error. With the help of an article on [Scaler](https://www.scaler.com/topics/) I have incorporated the link into the button element using onclick. 
 
 5. On the Upcoming events page the semi-transparent gradient background made the text hard to read on mobile devices. I have changed the semi-transparent background on mobile size to black which makes the white text easy to read over the background picture.
+
+6. On the home page, on large screen sizes, the hero image would jump to the top therefore only showing the bottom part of the image. I have fixed this by replacing the image with the same image but in a bigger size in css. I have positioned it to the top so now the main part of the image is in focus.  
+
+7. On the home page, when changing to a smaller screen size, the images would spill over the background due to having a fixed width size. I have fixed this issue by setting the images width to 100% and its height to auto, making them responsive.
+
 
 ### Known Bugs
 
@@ -285,7 +292,7 @@ The W3C validator was used to validate the HTML on all pages of the website. It 
 
 * [CSS Gradient](https://cssgradient.io/)
 * [How to Make a Button Link to Another Page in HTML?](https://www.scaler.com/topics/how-to-make-a-button-link-to-another-page-in-html/)
-* [CSS Tutorial](https://www.w3schools.com/css/default.asp) Used this website to help me write some codes correctly. 
+* [CSS Tutorial](https://www.w3schools.com/css/default.asp) Used this website to help me check if I was using the correct values for some properties in my code. 
 
 ### Content
 
@@ -302,4 +309,4 @@ All images were taken from the stock free image sites [Pexels](https://www.pexel
 
 I would like to acknowledge the following people who helped me along the way in completing my first milestone project:
 
-* Graeme Taylor, my Code Institute Mentor.
+* [Graeme Taylor](https://github.com/G-Taylor), my Code Institute Mentor.
