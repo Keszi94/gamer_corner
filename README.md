@@ -132,7 +132,7 @@ The website is comprised of four pages, three of which are accessible from the n
    
    ![Footer](assets/images/readme-images/footer.png)
    
-   * The Thank you page does not have a footer or links in the header because the page automatically redirects to the home page after ten seconds. 
+   * The Thank you page is the only exception. It does not have a footer or links in the header because the page automatically redirects to the home page after ten seconds. 
    
    ![Thank you page](assets/images/readme-images/thankyounomenuscrs.png)
 
