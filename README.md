@@ -21,8 +21,6 @@ The Gamer Corner website is designed to be responsive website allowing visitors 
    * [Wireframes](#wireframes)
 
    * [Features](#features)
-   * [General Features on Each Page](#general-features-on-each-page)
-   * [Future Implementations](#future-implementations)
    * [Accessibility](#accessibility)
 
 * [Technologies Used](#technologies-used)
